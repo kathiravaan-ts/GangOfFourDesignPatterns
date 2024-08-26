@@ -1,6 +1,7 @@
 ﻿// See https://aka.ms/new-console-template for more information
 using System.ComponentModel.DataAnnotations;
 using GangOfFourDesignPatterns.AbstractFactory;
+using GangOfFourDesignPatterns.Builder;
 using GangOfFourDesignPatterns.Factory;
 using GangOfFourDesignPatterns.Singleton;
 
@@ -30,6 +31,12 @@ switch (input){
         var hondaClient = new VehicleClient(honda, "sports");
         Console.WriteLine($"{hondaClient.GetBikeName()}");
         Console.WriteLine($"{hondaClient.GetScooterName()}");
+        break;
+    case "builder":
+        IHouseBuilder houseBuilder = new HouseBuilder();
+        var houseDirector = new HouseDirector(houseBuilder);
+        houseDirector.ConstructHouse();
+        Console.WriteLine(houseBuilder.GetHouse());
         break;
     default:
         throw new ValidationException("Invalid design patten type");

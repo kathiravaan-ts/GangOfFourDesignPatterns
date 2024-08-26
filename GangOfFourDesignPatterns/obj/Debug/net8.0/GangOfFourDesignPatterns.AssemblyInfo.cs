@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("GangOfFourDesignPatterns")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8d4c9632101feb1e3c070573486342462c1e2bb8")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4e139e8810e79457d22d1581bbd9ee8e59f99a4b")]
 [assembly: System.Reflection.AssemblyProductAttribute("GangOfFourDesignPatterns")]
 [assembly: System.Reflection.AssemblyTitleAttribute("GangOfFourDesignPatterns")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
