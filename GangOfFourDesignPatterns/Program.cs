@@ -1,5 +1,6 @@
 ﻿// See https://aka.ms/new-console-template for more information
 using System.ComponentModel.DataAnnotations;
+using GangOfFourDesignPatterns.AbstractFactory;
 using GangOfFourDesignPatterns.Factory;
 using GangOfFourDesignPatterns.Singleton;
 
@@ -18,6 +19,17 @@ switch (input){
     case "factory":
         var file = new FileExtractionFactory().CreateFileExtraction(FileType.EXCEL);
         file.Extract("Extract file content in excel ");
+        break;
+    case "abstract-factory":
+        IVehicleFactory hero = new HeroVehicleFactory();
+        var heroClient = new VehicleClient(hero, "regular");
+        Console.WriteLine($"{heroClient.GetBikeName()}");
+        Console.WriteLine($"{heroClient.GetScooterName()}");
+
+        IVehicleFactory honda = new HeroVehicleFactory();
+        var hondaClient = new VehicleClient(honda, "sports");
+        Console.WriteLine($"{hondaClient.GetBikeName()}");
+        Console.WriteLine($"{hondaClient.GetScooterName()}");
         break;
     default:
         throw new ValidationException("Invalid design patten type");
