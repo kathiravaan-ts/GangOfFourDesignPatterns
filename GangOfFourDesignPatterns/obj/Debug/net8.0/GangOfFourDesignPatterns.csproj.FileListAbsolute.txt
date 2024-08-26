@@ -1,0 +1,15 @@
+C:\Users\KathiravaanSubramani\source\GangOfFourDesignPatterns\GangOfFourDesignPatterns\bin\Debug\net8.0\GangOfFourDesignPatterns.exe
+C:\Users\KathiravaanSubramani\source\GangOfFourDesignPatterns\GangOfFourDesignPatterns\bin\Debug\net8.0\GangOfFourDesignPatterns.deps.json
+C:\Users\KathiravaanSubramani\source\GangOfFourDesignPatterns\GangOfFourDesignPatterns\bin\Debug\net8.0\GangOfFourDesignPatterns.runtimeconfig.json
+C:\Users\KathiravaanSubramani\source\GangOfFourDesignPatterns\GangOfFourDesignPatterns\bin\Debug\net8.0\GangOfFourDesignPatterns.dll
+C:\Users\KathiravaanSubramani\source\GangOfFourDesignPatterns\GangOfFourDesignPatterns\bin\Debug\net8.0\GangOfFourDesignPatterns.pdb
+C:\Users\KathiravaanSubramani\source\GangOfFourDesignPatterns\GangOfFourDesignPatterns\obj\Debug\net8.0\GangOfFourDesignPatterns.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\KathiravaanSubramani\source\GangOfFourDesignPatterns\GangOfFourDesignPatterns\obj\Debug\net8.0\GangOfFourDesignPatterns.AssemblyInfoInputs.cache
+C:\Users\KathiravaanSubramani\source\GangOfFourDesignPatterns\GangOfFourDesignPatterns\obj\Debug\net8.0\GangOfFourDesignPatterns.AssemblyInfo.cs
+C:\Users\KathiravaanSubramani\source\GangOfFourDesignPatterns\GangOfFourDesignPatterns\obj\Debug\net8.0\GangOfFourDesignPatterns.csproj.CoreCompileInputs.cache
+C:\Users\KathiravaanSubramani\source\GangOfFourDesignPatterns\GangOfFourDesignPatterns\obj\Debug\net8.0\GangOfFourDesignPatterns.sourcelink.json
+C:\Users\KathiravaanSubramani\source\GangOfFourDesignPatterns\GangOfFourDesignPatterns\obj\Debug\net8.0\GangOfFourDesignPatterns.dll
+C:\Users\KathiravaanSubramani\source\GangOfFourDesignPatterns\GangOfFourDesignPatterns\obj\Debug\net8.0\refint\GangOfFourDesignPatterns.dll
+C:\Users\KathiravaanSubramani\source\GangOfFourDesignPatterns\GangOfFourDesignPatterns\obj\Debug\net8.0\GangOfFourDesignPatterns.pdb
+C:\Users\KathiravaanSubramani\source\GangOfFourDesignPatterns\GangOfFourDesignPatterns\obj\Debug\net8.0\GangOfFourDesignPatterns.genruntimeconfig.cache
+C:\Users\KathiravaanSubramani\source\GangOfFourDesignPatterns\GangOfFourDesignPatterns\obj\Debug\net8.0\ref\GangOfFourDesignPatterns.dll
