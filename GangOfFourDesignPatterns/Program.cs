@@ -1,10 +1,12 @@
 ﻿// See https://aka.ms/new-console-template for more information
 using System.ComponentModel.DataAnnotations;
+using System.Runtime.ConstrainedExecution;
 using System.Text;
 using GangOfFourDesignPatterns.AbstractFactory;
 using GangOfFourDesignPatterns.Builder;
 using GangOfFourDesignPatterns.Factory;
 using GangOfFourDesignPatterns.Mediator;
+using GangOfFourDesignPatterns.Observer;
 using GangOfFourDesignPatterns.Singleton;
 
 Console.WriteLine("Hello, World!");
@@ -65,6 +67,21 @@ switch (input){
         _mediator.RegisterUser(user3);
         user2.SendMessage("Hello! Welcome");
         user1.SendMessage("How are you?");        
+        break;
+    case "observer":
+        Subject realMe = new Subject("RealMe C63",10000,"Available");
+
+        IObserver usr1 = new Observer("kathiravan");
+        usr1.Subscribe(realMe);
+
+        IObserver usr2 = new Observer("nivetha");
+        usr2.Subscribe(realMe);
+
+        IObserver usr3 = new Observer("athiyan");
+        usr2.Subscribe(realMe);
+ 
+        realMe.SetState("Available");
+        Console.WriteLine($"Subject state {realMe.GetCurrentState()} has been update!");
         break;
     default:
         throw new ValidationException("Invalid design patten type");
