@@ -1,5 +1,3 @@
-using System;
-
 namespace GangOfFourDesignPatterns.Singleton
 {
     public sealed class LazyLogger

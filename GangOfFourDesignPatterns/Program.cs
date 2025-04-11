@@ -1,6 +1,5 @@
 ﻿// See https://aka.ms/new-console-template for more information
 using System.ComponentModel.DataAnnotations;
-using System.Runtime.ConstrainedExecution;
 using System.Text;
 using GangOfFourDesignPatterns.AbstractFactory;
 using GangOfFourDesignPatterns.Builder;

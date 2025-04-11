@@ -1,5 +1,3 @@
-using System;
-
 namespace GangOfFourDesignPatterns.Singleton
 {
     public sealed class Logger //Sealed to make sure, class cannot be inherited

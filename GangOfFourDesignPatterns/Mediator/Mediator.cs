@@ -1,5 +1,3 @@
-using System;
-
 namespace GangOfFourDesignPatterns.Mediator
 {
     public interface IChatMediator

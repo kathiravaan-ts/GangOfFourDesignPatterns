@@ -1,5 +1,3 @@
-using System;
-
 namespace GangOfFourDesignPatterns.Factory
 {
     public interface IFileExtraction 

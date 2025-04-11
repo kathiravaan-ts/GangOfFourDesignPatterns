@@ -1,5 +1,3 @@
-using System;
-
 namespace GangOfFourDesignPatterns.AbstractFactory
 {
     public interface IScooter 

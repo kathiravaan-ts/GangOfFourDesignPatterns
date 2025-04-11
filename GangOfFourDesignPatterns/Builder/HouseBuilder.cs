@@ -1,5 +1,3 @@
-using System;
-
 namespace GangOfFourDesignPatterns.Builder
 {
     //Actual Product

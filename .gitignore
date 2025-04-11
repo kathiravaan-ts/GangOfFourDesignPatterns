@@ -362,4 +362,6 @@ MigrationBackup/
 
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
-/GangOfFourDesignPatterns/obj/Debug/net8.0/GangOfFourDesignPatterns.AssemblyInfo.cs
+/GangOfFourDesignPatterns/obj/*
+/bin/
+/GangOfFourDesignPatterns/bin/*
