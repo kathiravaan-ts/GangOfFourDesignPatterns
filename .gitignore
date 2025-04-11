@@ -16,6 +16,7 @@
 # Mono auto generated files
 mono_crash.*
 
+obj/
 # Build results
 [Dd]ebug/
 [Dd]ebugPublic/
@@ -361,3 +362,4 @@ MigrationBackup/
 
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
+/GangOfFourDesignPatterns/obj/Debug/net8.0/GangOfFourDesignPatterns.AssemblyInfo.cs
