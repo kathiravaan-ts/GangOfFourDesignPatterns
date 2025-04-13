@@ -360,8 +360,12 @@ MigrationBackup/
 # Ionide (cross platform F# VS Code tools) working folder
 .ionide/
 
+*/obj/*
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
 /GangOfFourDesignPatterns/obj/*
 /bin/
 /GangOfFourDesignPatterns/bin/*
+/GangOfFourDesignPatterns/bin/Debug/net8.0/GangOfFourDesignPatterns.exe
+/GangOfFourDesignPatterns/bin/Debug/net8.0/GangOfFourDesignPatterns.pdb
+/GangOfFourDesignPatterns/obj/Debug/net8.0/ref/GangOfFourDesignPatterns.dll

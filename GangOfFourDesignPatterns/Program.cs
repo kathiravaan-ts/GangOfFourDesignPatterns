@@ -4,6 +4,7 @@ using System.Text;
 using GangOfFourDesignPatterns.AbstractFactory;
 using GangOfFourDesignPatterns.Builder;
 using GangOfFourDesignPatterns.Factory;
+using GangOfFourDesignPatterns.FileStreamLogger;
 using GangOfFourDesignPatterns.Mediator;
 using GangOfFourDesignPatterns.Observer;
 using GangOfFourDesignPatterns.Singleton;
@@ -81,6 +82,10 @@ switch (input){
  
         realMe.SetState("Available");
         Console.WriteLine($"Subject state {realMe.GetCurrentState()} has been update!");
+        break;
+    case "filelogger":
+        ILoggerFactory loggerFactory = LoggerFactory.GetInstance;
+        var _logger = loggerFactory.CreateLogger(LogType.File, @"C:\projects\logs\log.txt");
         break;
     default:
         throw new ValidationException("Invalid design patten type");
